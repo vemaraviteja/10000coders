@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table,th,td {
+            border: 3px solid black;
+            text-align: left;
+            width: 50%;
+            border-radius: 50px;
+            
+        }
+        tr:nth-child(even){
+            background-color: silver;
+
+        }
+    </style>
+</head>
+<body>
+    <p>hey now we are going see the intresting topic called <strong>IMAGE MAPS</strong></p>
+    <img src="computer.jpg" alt="fromGoogle" usemap="#comp">
+    <map name="comp">
+        <area shape="rect" coords="80,100,270,350" alt="dispalyShivaImage" href="shiva.jpg">
+
+    </map>
+    <p>Now we are going to learn about CSS Borders</p><br><br>
+    <p class="b1">BORDER</p>
+    <p id="p1">PADDING</p>
+    <h1 id="m1">Margin</h1>
+    <a href="https://www.cricbuzz.com/profiles/265/ms-dhoni">
+        <img src="dhoni.jpg" alt="IT will open the external page" width="200px" height="200px">
+    </a><br>
+
+    <strong>Float the image at the right or left side of the paragraph</strong>
+    <h2>
+        <img src="dhoni.jpg" style="float: left;width: 60px; height: 60px;">
+        i am a huge fan of dhoni
+        <img src="dhoni.jpg" style="float: 100px; width: 50px; height: 60px;"
+    </h2><br><br>
+    <p style="background-image: url('dhoni.jpg');text-align:left;background-repeat: no-repeat;width: auto; ">
+
+         A background image for a p element:<br>
+        You can specify background images<br>
+        for any visible HTML element.<br>
+        In this example, the background image<br>
+        is specified for a p element.<br>
+        By default, the background-image<br>
+        will repeat itself in the direction(s)<br>
+        where it is smaller than the element<br>
+        where it is specified. (Try resizing the<br>
+        browser window to see how the<br>
+        background image behaves.
+    </p><br>
+    <h1>Now we are going to see the HTML TABLES</h1>
+    <table >
+        <tr ><th>S.no</th><th>Name</th><th>Branch</th></tr>
+        <tr><td>1</td><td>Ravi</td><td>Mechanical</td></tr>
+        <tr><td>2</td><td>Bindu</td><td> Cse</td></tr>
+        <tr><td>3</td><td>vema</td><td>Ece</td></tr>
+        <tr><td>4</td><td>TEja</td><td>Cse</td></tr>
+    </table>
+    
+
+</body>
+</html>

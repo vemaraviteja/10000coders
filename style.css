@@ -1,0 +1,19 @@
+p{
+    color: blue;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.b1{
+    border: 15px solid brown;
+    border-radius: 50px;
+}
+#p1{
+    border: 7px darkgreen solid;
+    padding: 15px;
+}
+#m1{
+    border:8px solid greenyellow;
+    margin: 6%;
+    text-align: center;
+    color: blue;
+}
